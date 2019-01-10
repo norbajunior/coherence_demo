@@ -43,7 +43,7 @@ defmodule CoherenceDemo.MixProject do
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
-      {:coherence, path: "../coherence"},
+      {:coherence, github: "appprova/coherence", branch: "upgrade-to-phoenix-1.4"},
     ]
   end
 
